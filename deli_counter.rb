@@ -19,9 +19,11 @@ def take_a_number(deli, customer)
   if deli.empty?
     deli << customer
     puts "Welcome, #{customer}. You are number 1 in line."
+  
   elsif deli.size == 4
    customer = deli.last
-   
-    puts "Welcome, #{customer}. You are number #{deli in line."
+    puts "Welcome, #{customer}. You are number #{counter} in line."
   end
+  
+  
 end
