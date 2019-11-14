@@ -36,7 +36,7 @@ def now_serving(deli)
   else 
     customer = deli.first 
     puts "Currently serving #{customer}."
-    
+    deli.shift
   end
   
 end
