@@ -22,6 +22,6 @@ def take_a_number(deli, customer)
   elsif deli.size == 4
    customer = deli.last
    
-    puts "Welcome, #{customer}. You are number #{deli{[-1]} in line. "
+    puts "Welcome, #{customer}. You are number #{deli{[-1]} in line."
   end
 end
