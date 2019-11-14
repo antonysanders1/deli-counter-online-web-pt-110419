@@ -24,6 +24,8 @@ def take_a_number(deli, customer)
     deli << "Grace"
     customer = deli.last
     puts "Welcome, #{customer}. You are number #{deli.index(customer) + counter} in line."
+  else
+    
   end
   
   
