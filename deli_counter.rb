@@ -18,5 +18,7 @@ def take_a_number(deli, customer)
   if deli.empty?
     deli << customer
     puts "Welcome, #{customer}. You are number 1 in line."
+  else
+    deli << customer
   end
 end
