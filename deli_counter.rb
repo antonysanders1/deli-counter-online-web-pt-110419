@@ -29,7 +29,7 @@ end
 
 
 
-def now_serving(deli, customer)
+def now_serving(deli)
   if deli.empty?
     puts "The line is currently empty."
   else
