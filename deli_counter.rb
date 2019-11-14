@@ -35,7 +35,8 @@ def now_serving(deli)
     puts "There is nobody waiting to be served!"
   else 
     customer = deli.first 
-    puts "Now serving #{cstomer}."
+    puts "Currently serving #{cstomer}."
+    
   end
   
 end
