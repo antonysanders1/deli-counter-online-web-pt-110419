@@ -13,6 +13,8 @@ def line(customer)
   end
 end
 
+
+
 def take_a_number(deli, customer)
   deli << customer
   
@@ -24,6 +26,14 @@ def take_a_number(deli, customer)
   end
 end
 
-def now_serving
+
+
+
+def now_serving(deli, customer)
+  if deli.empty?
+    puts "The line is currently empty."
+  else
+
+  end
   
 end
