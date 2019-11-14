@@ -22,7 +22,7 @@ def take_a_number(deli, customer)
   
   elsif deli.size == 4
    customer = deli.last
-    puts "Welcome, #{customer}. You are number #{counter} in line."
+    puts "Welcome, #{customer}. You are number #{deli.index(customer)} in line."
   end
   
   
