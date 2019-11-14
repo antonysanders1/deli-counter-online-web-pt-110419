@@ -17,13 +17,9 @@ def take_a_number(deli, customer)
   deli << customer
   
   if deli.size == 1
-    puts "Welcome, #{customer}. You are number 1 in line."
+    puts "Welcome, #{customer}. You are number #{deli.index(customer) + 1} in line."
   
   elsif deli.size == 4
     puts "Welcome, #{customer}. You are number #{deli.index(customer) + 1} in line."
-  #else
-  #  deli.unshift
   end
-  
-  
 end
