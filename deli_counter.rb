@@ -24,3 +24,6 @@ def take_a_number(deli, customer)
   end
 end
 
+def now_serving
+  
+end
