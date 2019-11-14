@@ -20,8 +20,9 @@ def take_a_number(deli, customer)
     deli << customer
     puts "Welcome, #{customer}. You are number 1 in line."
   
-  elsif deli.size == 4
-   customer = deli.last
+  elsif deli.size == 3
+    deli << "Grace"
+    customer = deli.last
     puts "Welcome, #{customer}. You are number #{deli.index(customer)} in line."
   end
   
