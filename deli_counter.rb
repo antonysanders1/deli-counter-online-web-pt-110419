@@ -16,6 +16,7 @@ end
 def take_a_namber(deli, customer)
   
   if deli.empty?
+    deli << customer
     puts "Welcome, #{customer}. You are number 1 in line."
   end
 end
