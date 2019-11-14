@@ -13,7 +13,7 @@ def line(customer)
   end
 end
 
-def take_a_namber(deli, customer)
+def take_a_number(deli, customer)
   
   if deli.empty?
     deli << customer
